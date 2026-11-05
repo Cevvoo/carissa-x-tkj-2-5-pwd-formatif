@@ -1,0 +1,51 @@
+/* Font */
+@font-face {
+    font-family: 'Poppins';
+    src: url('../assets/fonts/Poppins-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/OpenSans-Regular.ttf');
+    font-weight: 300;
+}
+
+/* Latar Belakang */
+#about {
+    background-image: url('../assets/images/bg.png');
+    background-size: 80vh;
+    background-position: center;
+    padding: 120px 0;
+}
+
+/* Teks */
+body{
+    font-family: 'Open Sans', sans-serif;;
+}
+.about-box{
+    width: 620px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 12px ;
+    padding: 25px ;
+    margin: 0 auto;
+}
+
+.about-box h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: darkgreen;
+}
+
+.about-box p {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+}
+.about-box .closing {
+    text-align: right;
+    font-style: italic;
+}
+footer{
+    text-align: center;
+    ;
+}
