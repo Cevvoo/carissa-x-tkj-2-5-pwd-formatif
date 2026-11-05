@@ -1,0 +1,44 @@
+body{
+    background-color: #bebebe;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#gallery {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#gallery h2 {
+    text-align: center;
+    color: darkslategrey;
+}
+
+.gallery > .gallery-item {
+    padding: 12px;
+    border: 1px solid darkgray;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 150px;
+    display: block;
+}
+
+.gallery-item h3 {
+    font-size: 16px;
+    margin-top: 10px;
+    color: darkslategray;
+}
+
+footer{text-align: center;}
