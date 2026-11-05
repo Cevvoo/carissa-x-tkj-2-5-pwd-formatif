@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        body{
+            background-color: beige;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        #contact {
+            padding: 40px 20px;
+        }
+
+        .contact-form {
+            width: 400px;
+            margin: 0 auto;
+            padding: 24px;
+            border: 1px solid darkgray;
+            background-color:antiquewhite;
+            width: 300px;
+        }
+
+            .contact-form h2 {
+                text-align: center;
+            }
+
+            .form-group {
+               margin-bottom: 16px;
+            }
+
+            .form-group label {
+                display: block;
+                font-weight: bold;
+                margin-bottom: 6px;
+            }
+
+            .form-group input, .form-group textarea {
+                width: 100%;
+                box-sizing: border-box;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+            .form-group input:focus, .form-group textarea:focus {
+                background-color: #eaf4ff;
+                border-color: #3498db;
+                outline: none;
+            }
+
+            .btn-submit {
+                background-color: #3498db;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                width: 125px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            .btn-submit:hover {
+                background-color: #217dbb;
+            }
+
+            footer{text-align: center;}
+    </style>
+</head>
+<body>
+    <section id="contact">
+        <form class="contact-form">
+            <h2>
+                Hubungi Saya
+            </h2>
+
+            <div class="form-group">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+            </div>
+
+            <div class="form-group">
+                <label for="pesan">Pesan:</label>
+                <textarea id="pesan"></textarea>
+            </div>
+
+            <button class="btn-submit">Kirim Pesan</button>
+
+        </form>
+    </section>
+
+    <footer>
+        <a href="../index.html">Kembali ke Beranda</a>
+    </footer>
+
+</body>
+</html>
